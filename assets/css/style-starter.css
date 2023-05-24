@@ -14,24 +14,24 @@ Author URL: http://w3layouts.com
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #ccba78;
   --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
+  --orange: #ccba78;
+  --yellow: #ccba78;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #011627;
-  --secondary: #ff9f1c;
+  --primary: #251f43;
+  --secondary: #ccba78;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
+  --light: #fff;
+  --dark: #251f43;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -601,7 +601,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #ccba78;
   word-wrap: break-word;
 }
 
@@ -2770,9 +2770,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: #fff;
+  color: rgba(203, 155, 52, 0.77);
   background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
+  border-color: rgba(203, 155, 52, 0.77);
 }
 
 .btn-primary:focus,
@@ -2785,7 +2785,7 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: #fff;
+  color: rgba(203, 155, 52, 0.77);
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
@@ -2793,7 +2793,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
-  color: #fff;
+  color: rgba(203, 155, 52, 0.77);
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
@@ -2806,14 +2806,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #ff9f1c;
-  border-color: #ff9f1c;
+  background-color: #ccba78;
+  border-color: #ccba78;
 }
 
 .btn-secondary:hover {
-  color: #fff;
+  color: rgba(203, 155, 52, 0.77);
   background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  border-color: rgba(203, 155, 52, 0.77)
 }
 
 .btn-secondary:focus,
@@ -2827,16 +2827,16 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #fff;
-  background-color: #ff9f1c;
-  border-color: #ff9f1c;
+  background-color: #ccba78;
+  border-color: #ccba78;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #F41F0B;
-  border-color: #F41F0B;
+  background-color: #351d84;
+  border-color: #351d84;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
@@ -3128,14 +3128,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #ff9f1c;
-  border-color: #ff9f1c;
+  color: #ccba78;
+  border-color: #ccba78;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #ff9f1c;
-  border-color: #ff9f1c;
+  background-color: #ccba78;
+  border-color: #ccba78;
 }
 
 .btn-outline-secondary:focus,
@@ -3145,7 +3145,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
-  color: #ff9f1c;
+  color: #ccba78;
   background-color: transparent;
 }
 
@@ -3153,8 +3153,8 @@ fieldset:disabled a.btn {
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #ff9f1c;
-  border-color: #ff9f1c;
+  background-color: #ccba78;
+  border-color: #ccba78;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
@@ -5437,7 +5437,7 @@ a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #ff9f1c;
+  background-color: #ccba78;
 }
 
 a.badge-secondary:hover,
@@ -6156,7 +6156,7 @@ a.badge-dark.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #201747;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
@@ -6168,7 +6168,7 @@ a.badge-dark.focus {
 }
 
 .close:hover {
-  color: #000;
+  color: #201747;
   text-decoration: none;
 }
 
@@ -6347,7 +6347,7 @@ a.close.disabled {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: #201747;
 }
 
 .modal-backdrop.fade {
@@ -6504,7 +6504,7 @@ a.close.disabled {
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
   top: 0;
   border-width: 0.4rem 0.4rem 0;
-  border-top-color: #000;
+  border-top-color: #201747;
 }
 
 .bs-tooltip-right,
@@ -6523,7 +6523,7 @@ a.close.disabled {
 .bs-tooltip-auto[x-placement^="right"] .arrow::before {
   right: 0;
   border-width: 0.4rem 0.4rem 0.4rem 0;
-  border-right-color: #000;
+  border-right-color: #201747;
 }
 
 .bs-tooltip-bottom,
@@ -6540,7 +6540,7 @@ a.close.disabled {
 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
   bottom: 0;
   border-width: 0 0.4rem 0.4rem;
-  border-bottom-color: #000;
+  border-bottom-color: #201747;
 }
 
 .bs-tooltip-left,
@@ -6559,7 +6559,7 @@ a.close.disabled {
 .bs-tooltip-auto[x-placement^="left"] .arrow::before {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: #201747;
 }
 
 .tooltip-inner {
@@ -6567,7 +6567,7 @@ a.close.disabled {
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #201747;
   border-radius: 0.25rem;
 }
 
@@ -10944,7 +10944,7 @@ a.text-dark:focus {
   }
 
   .badge {
-    border: 1px solid #000;
+    border: 1px solid #201747;
   }
 
   .table {
@@ -14018,8 +14018,8 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #011627;
-  --secondary-color: #ff9f1c;
+  --primary-color: ##201747;
+  --secondary-color: #ccba78;
   --font-color: #696969;
   --bg-color: #fff;
   --heading-color:#151b1d;
@@ -14039,19 +14039,19 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #011627;
-  --secondary-color: #ff9f1c;
+  --primary-color: #201747;
+  --secondary-color: #ccba78;
   --font-color: #afafaf;
-  --bg-color:#000;
+  --bg-color:#201747;
   --heading-color:#fff;
   --border-color:#4C5F67;
   --border-light:#4C5F67;
   --nav-color: #fff;
   --logo-color: #fff;
-  --bg-light:#111;
-  --footer-light:#000;
-  --footer-bg: #111;
-  --dropdown-color:#000;
+  --bg-light:#fff;
+  --footer-light:#201747;
+  --footer-bg: #fff;
+  --dropdown-color:#201747;
   --bg-light1:rgba(0, 0, 0, 0.34);
   --iframe-filter: grayscale(100%);
   --widget-bg: #131617;
@@ -15265,7 +15265,7 @@ a.view:hover {
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
-  background: #000;
+  background: #201747;
 }
 
 .owl-carousel .owl-video-play-icon {
